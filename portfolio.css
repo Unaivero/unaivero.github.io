@@ -71,10 +71,12 @@ section {
   display: none;
 }
 
+ul {
+  width: 100%;
+}
 ul, a, li{
 margin: 0;
 padding: 0;
-display: inline-block;
 list-style: none;
 text-align: right;
 display: inline-block;
