@@ -18,7 +18,12 @@ h6 {
   font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
 }
-h1, h2 {
+
+h1{
+  text-align: center;
+}
+
+h2{
   text-align: center;
 }
 
@@ -62,16 +67,18 @@ section {
   display: none;
 }
 
-.navbar ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+#navcontainer ul {
+margin: 0;
+padding: 0;
+list-style-type: none;
+text-align: right;
 }
 
-.navbar ul li {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+#navcontainer li {
+margin: 0;
+padding: 0;
+list-style-type: none;
+text-align: right;
 }
 
 
