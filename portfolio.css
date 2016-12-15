@@ -60,7 +60,13 @@ section {
   display: none;
 }
 
-ul .navbar {
+container ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+container ul li {
     list-style-type: none;
     margin: 0;
     padding: 0;
