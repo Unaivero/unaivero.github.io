@@ -27,6 +27,10 @@ h2{
   text-align: center;
 }
 
+p{
+  text-align: center;
+}
+
 /*Using table display allows for vertical centering*/
 
 section {
@@ -67,18 +71,12 @@ section {
   display: none;
 }
 
-#navcontainer ul {
+li a {
 margin: 0;
 padding: 0;
 list-style-type: none;
 text-align: right;
-}
-
-#navcontainer li {
-margin: 0;
-padding: 0;
-list-style-type: none;
-text-align: right;
+display: inline-block;
 }
 
 
@@ -98,7 +96,7 @@ text-align: right;
   z-index: -1;
   top: 0px;
   left: 0px;
-  /*By using the before psuedo-class, I can have the background image and apply a filter*/
+  /*By using the before pseudo-class, I can have the background image and apply a filter*/
   background: url("https://dl.dropboxusercontent.com/u/42615722/portfolio/photo-1416339442236-8ceb164046f8.jpeg") center center fixed no-repeat;
   background-size: cover;
   -webkit-background-size: cover;
