@@ -1,0 +1,104 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Merriweather', serif;
+}
+
+body {
+  background: url(https://s3.amazonaws.com/codecademy-content/projects/junction/bg.jpg) no-repeat center;
+  background-size:cover;
+}
+
+.container {
+  max-width:940px;
+}
+
+/* Header */
+.header {
+  padding: 10px 0;
+  background: rgba(0,0,0,.5);
+}
+
+.nav {
+  display: inline;
+}
+.nav li {
+  display: inline-block;
+  color: white;
+  padding-right: 4px ;
+  padding-left: 4px ;
+  text-align: left;
+}
+
+.logo {
+  max-width: 20px; 
+  max-height: 40px;
+}
+
+/* Jumbotron */
+.jumbotron {
+  position: relative;
+  top: 50px;
+  text-shadow: 0 2px 3px rgba(0,0,0,.4);
+  background: none;
+  color: white;
+}
+
+.jumbotron h1 {
+  text-align: center;
+}
+
+/* Supporting */
+/*THIS IS YOUR OLD CSS*/
+/*
+.supporting {
+  margin-top: 40px;
+  text-shadow: 0 2px 3px rgba(0,0,0,.4);
+}
+
+.supporting .col-md-4 {
+  color: white;  
+  text-align: center;
+}
+
+.supporting .col-md-4 li{
+  color: white;
+  list-style-type: none;
+  text-align: center;
+  }
+
+.supporting li img {
+  max-width: 120px; 
+  max-height: 120px;
+}
+*/
+/*THIS IS CSS CODE FOR YOUR REFERENCE - IT WORKS*/
+.supporting {
+            margin-top: 40px;
+            text-shadow: 0 2px 3px rgba(0, 0, 0, .4);
+        }
+        .supporting .col-md-4 {
+            text-align: center;
+            color: #fff;
+            margin-bottom: 40px;
+        }
+        .supporting h2 {
+            font-size: 25px;
+        }
+        .supporting p {
+            font-size: 16px;
+        }
+
+.download {
+  position: relative;
+  text-align: center;
+  margin-bottom: 120px;
+}
+
+.download .btn {
+  color: #FFFFFF;
+  background: rgb(20, 167, 135);
+  border: 0px;
+  margin-top: 24px;
+  padding: 10px 60px;
+}
