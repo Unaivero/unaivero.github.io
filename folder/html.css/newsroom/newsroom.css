@@ -1,0 +1,161 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background: rgb(242, 242, 242);
+}
+
+.header {
+  background: #000;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.logo {
+  width: 200px;
+}
+
+.search-btn {
+  color: #0393FF;
+  background: #000000;
+  font-size: 16px; 
+  font-weight: 300;
+  padding: 10px 10px;
+  border: 2px solid #0393FF;
+}
+
+.search-btn:hover {
+        color:#fff;
+        background-color:#0393ff; 
+      }
+
+.search-form input {
+  background: transparent;
+  border-bottom: 2px solid white;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+ 
+ }
+
+.search-form input:hover {
+    border-bottom: 1px solid #1a77ff; outline: 0px;
+ }
+
+.menu {
+  background: rgb(21, 34, 48);
+
+}
+.nav ul {
+  display: inline;
+  list-style: none;
+  
+}
+
+.nav li{
+  display: inline-block;
+  color: white; 
+  font-weight: bold;
+  margin: 6px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  }
+
+.nav li:hover {
+        color:#fff;
+        background-color:#0393ff; 
+      }
+
+.nav li.active {
+    background-color: rgb(26, 119, 255);
+}
+
+
+.main {
+  background: url(https://s3.amazonaws.com/codecademy-content/projects/newsroom/bass-bg.jpg) no-repeat center;
+  background-size: cover;
+  height: 500px;
+  color: white;
+}
+
+.main p{
+  padding-bottom: 20px;
+  padding-top: 20px;  
+  font-size: 20px;
+}
+
+.main h2{
+ font-size: 65px;  
+}
+
+ .col-md-5 h2 span {border-bottom: 5px solid #1a77ff; 
+}
+
+
+.supporting {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background: rgb(242, 242, 242); 
+}
+
+ .supporting ul {
+            padding: 0 0px;
+            list-style: none;
+        }
+        .supporting li {
+            display: inline;
+            
+        }
+
+.supporting h3 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+ .col-md-8 h4 span {
+   border-bottom: 5px solid #1a77ff; 
+}
+
+ .col-md-4 h4 span {
+   border-bottom: 5px solid #1a77ff; 
+}
+
+.supporting .col-md-8 {
+  background: white;
+}
+
+
+.supporting .col-md-4{
+  background: rgb(21, 34, 48);
+  color: white;
+}
+
+.supporting .col-md-12 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: -14px;
+}
+
+.supporting .col-md-12 img {
+  width: 970px;
+  margin-left: 90px;
+}
+
+
+.footer{
+  background: black;
+  }
+
+.footer li{
+  display: inline-block;
+  color: white;   
+  margin: auto;
+   
+  }
+
+.footer li p{
+  text-align:right;
+  color: white;  
+  margin: 6px;
+    }
