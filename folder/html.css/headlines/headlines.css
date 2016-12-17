@@ -1,0 +1,112 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Libre Baskerville', sans-serif;
+  }
+
+.header{
+  color: rgb(68, 68, 80);
+}
+
+.header ul li {
+  color:rgb(51, 51, 51); 
+}
+
+a {
+  color: black;
+}
+
+.container {
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+.jumbotron {
+  background-color: rgb(238, 238, 238);
+  margin-top: 50px;
+  margin-bottom: 0; 
+  
+}
+
+.jumbotron h2{
+  color: rgb(51, 51, 51);
+  font-size: 40px;
+}
+
+.jumbotron h2 span{
+  color: #ffc200;
+}
+
+.banner {
+ background-color: #333; 
+ 
+}
+
+.banner h2{
+ color: rgb(248, 248, 248); 
+ text-align: center; 
+}
+.banner p{
+ color: rgb(248, 248, 248);
+  text-align: center;
+}
+
+ @media (max-width: 992px) {
+  .col-md-4 {
+    margin: 0 auto 0;
+    text-align: center;
+    width: 100%;
+  }
+  .cards img {
+    width: 60%;
+  }
+}
+
+@media (max-width: 500px) {
+  .header h1 {
+    text-align: center;
+  }
+
+  .nav li {
+    text-align: center;
+    width: 100%;
+  }
+
+  .cards img {
+    width: 100%;
+    margin-top: 10px;
+  }
+ }
+
+.cards {
+  background-color:rgb(255, 194, 0);
+  
+  }
+
+.cards h2 {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.cards .row .col-md-4 {
+  padding: 50px;
+}
+.footer {
+  background-color: #000000;
+}
+
+.footer .row {
+  color: rgb(255, 255, 239);
+}
+
+.footer img {
+  width: 35px ;
+  height:35px ;
+  float: center;
+  margin-top: 2px;
+}
+
+img{
+ margin-top: 20px;
+}
