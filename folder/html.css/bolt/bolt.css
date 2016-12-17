@@ -1,0 +1,146 @@
+html, body {
+  font-family: "Oxygen", sans-serif; 
+  font-weight: 300; 
+  margin: 0;
+  padding: 0;
+  background-color: #000000; 
+}
+
+.jumbotron {
+  background-color: #000000;
+  margin-top: 30px;  
+}
+
+.jumbotron img {
+  width:200px ;
+  
+}
+
+.jumbotron .btn:hover {
+        color:#fff;
+        background-color:#0393ff; 
+      }
+
+.header {
+  color:#fff;
+  background-color: #000000;
+}
+
+.pull-right a {
+  color: #0393FF;
+}
+
+.pull-right .btn-default {
+  color: #0393FF;
+  background: #000000;
+  font-size: 16px; 
+  font-weight: 300;
+  padding: 15px 15px;
+  border: 2px solid #0393FF;
+}
+
+.pull-right li {
+  color: #FFFFFF;
+  display: inline;
+  list-style: none;
+  margin-left: 15px;
+  font-size: 16px;
+}
+.container {
+  max-width: 970px;
+}
+
+
+/*--- MAIN SECTION ---*/
+.main {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+.main h1 {
+  color: white;
+  font-size: 55px;
+}
+
+.main .btn {
+  color: #0393FF;
+  background: #000000;
+  font-size: 16px; 
+  font-weight: 300;
+  padding: 15px 15px;
+  border: 2px solid #0393FF;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.main .form-control {
+  background-color: #000000;
+  color: grey;
+  border: 0 ;
+  border-bottom: 2px solid white;
+  margin-top: 50px;
+  text-align: left;
+  font-size: 16px; 
+}
+
+.main .btn-submit {
+   margin-top: 50px;
+}
+
+
+
+/*--- SUPPORTING SECTION ---*/
+
+.supporting {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/projects/bolt-network/diagmonds_@2X.png") ;
+  /*background-size: 141px 142px; */
+  background-repeat: repeat;
+  }
+
+.supporting h2{
+  color: #0393FF;
+  TEXT-ALIGN: center;
+  font-size: 30px;
+}
+
+.supporting p{
+  color: white;
+  TEXT-ALIGN: center;
+  font-size: 15px;
+}
+
+
+
+.feature {
+ background: url("https://s3.amazonaws.com/codecademy-content/projects/bolt-network/feature.jpg") center; 
+  height: 400px;
+  
+}
+
+.feature h1 {
+  color: #0393FF;
+  text-align: center;
+}
+
+.feature p {
+  color: white;
+  text-align: center;
+}
+.footer h3{
+  color: white;
+  text-align: left;
+}
+
+.footer ul{
+  margin: 0;
+  padding:0;
+}
+
+.footer li{
+  list-style: none;
+  color: #0393FF;
+  text-align: left;
+  margin: none;
+  padding:none;
+}
